@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+* {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+
+}
+.main_header {
+  background-color: #95c93d;
+}
+.main_header_menu_section {
+  background-color: #6fa219;
+}
+.main_carousel_card {
+  background-color: #4c4c4ce8;
+  width: 45vw;
+}
+.battery_section {
+  position: relative;
+  top: -100px;
+}
+
+.battery_detail {
+  width: 50% !important;
+}
+.battery_image_card {
+  width: 40%;
+}
+.battery_image {
+  width: 80%;
+  height: 50vh;
+  padding: 2em 3.5em;
+}
+.battery_text {
+  width: 80%;
+}
+.sign_up_button .sign_up_button_size {
+  padding: 0.5em 15em;
+}
+.sign_up_advantage {
+  margin-left: 10em;
+  margin-top: 2em;
+}
+.log_in_setup:hover {
+  border-bottom: 2px solid rgb(72, 116, 8);
+  color: rgb(8, 241, 8);
+}
+.ad_gallery_carousel {
+  height: 60vh;
+  margin: 2em;
+}
+.carousel-inner,
+.carousel-item,
+.ad_gallery_carousel img {
+  height: 100% !important;
+}
+.last_section_color {
+  background-color: #f1f1f1;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .header_section_search .w-50 {
+    width: 100% !important;
+  }
+  .header_section_search .cart_icon {
+    position: absolute !important;
+    top: 20px !important;
+    right: 20px !important;
+  }
+  .battery_section {
+    top: 0px;
+  }
+  .battery_image_card {
+    width: 100%;
+    margin-top: 3em;
+  }
+  .battery_image {
+    width: 100%;
+    height: 50vh;
+    padding: 1em 3em;
+  }
+  .battery_text {
+    width: 100%;
+  }
+  .battery_detail {
+    width: 100% !important;
+    margin-top: 2em;
+  }
+  .accordion:hover .d-none {
+    display: flex !important;
+  }
+  .accordion {
+    border: 1px solid green;
+    padding: 0.5em;
+  }
+  .accordion .text-success {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+  }
+  .accordion .text-success::after {
+    content: "\f107";
+    font-family: FontAwesome;
+  }
+  .accordion .list-unstyled li {
+    width: 90vw;
+    border-bottom: 1px solid green;
+    padding: 0.5em;
+    color: green;
+  }
+  .accordion .list-unstyled li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .ad_gallery_carousel {
+    height: 40vh;
+    margin: 1em;
+  }
+
+  /* seeting up sign up button size according to the mobile view  */
+  .sign_up_button .sign_up_button_size {
+    margin-left: 1.2em;
+    padding: 0.5em 7em;
+  }
+  /* seeting sign up advantage section */
+  .sign_up_advantage {
+    margin-left: 2em;
+    margin-top: 2em;
+  }
+}

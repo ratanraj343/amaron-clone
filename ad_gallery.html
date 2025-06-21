@@ -1,0 +1,626 @@
+<!-- Ad Gallery Section:
+     This section includes some ad-related text, plus two carousels —
+     one for an image gallery and another for TVCs (featuring multiple visuals
+     of Amaron batteries and their benefits). -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ad Gallery</title>
+    <!-- linking font awesome to get fonts from the site directly -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- linking the bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <!-- linking the bootstrap css plugins -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- linking the bootstrap js plugins -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+    <main class="container-fluid bg-light">
+      <header class="row main_header">
+        <div
+          class="col-12 d-none d-lg-flex d-md-flex justify-content-end text-white gap-3 py-2 px-5"
+        >
+          <a
+            href="mailto:info.testamaron@gmail.com"
+            class="text-light text-decoration-none"
+          >
+            <i class="fa fa-envelope me-1"></i>
+            <span>info.testamaron@gmail.com </span></a
+          >
+          <a href="tel:18001800124 " class="text-light text-decoration-none"
+            ><span><i class="fa fa-phone me-1"> </i> 18001800124 </span></a
+          >
+          <span>|</span>
+          <span>Follow us:</span>
+          <span><i class="fa fa-twitter"></i></span>
+          <span><i class="fa fa-facebook"></i></span>
+          <span><i class="fa fa-instagram"></i></span>
+        </div>
+
+        <div
+          class="col-12 d-flex flex-lg-row flex-md-row flex-column my-2 header_section_search justify-content-between align-items-lg-center align-items-md-center px-lg-5 px-md-5 text-white my-lg-3 my-md-3"
+        >
+          <div class="ham_menu">
+            <i
+              class="fa fa-bars fa-2x d-md-none d-lg-none d-inline-flex mx-2"
+            ></i>
+            <a href="index.html">
+              <img src="./images/Amaron_Logo_0.jpg" alt="Amaron Logo" />
+            </a>
+          </div>
+          <div class="input-group w-50 my-2">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search for the product,vehicle,battery"
+            />
+            <label for="" class="input-group-text bg-white">
+              <i class="fa fa-search"></i>
+            </label>
+          </div>
+          <ul class="menu list-unstyled d-flex gap-4">
+            <li class="position-relative cart_icon">
+              <i class="fa fa-shopping-cart fa-2x"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              >
+                0
+                <span class="visually-hidden">cart items</span>
+              </span>
+            </li>
+           <li><a href="log_in.html" class="text-decoration-none text-white">Login/Signup</a></li>
+          </ul>
+        </div>
+
+        <nav
+          class="col-12 d-none d-lg-flex d-md-flex main_header_menu_section text-white d-flex justify-content-center fw-bold fs-6"
+        >
+          <ul class="menu list-unstyled d-flex gap-4 my-2">
+            <li class="menu_item">
+              <!-- menu section about -->
+              <span>About</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">Amara Raja</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Amara Raja Batteries Ltd</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Management</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">OEM</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">International Operation</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">manufacturing</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu product -->
+            <li class="menu_item">
+              <span>Product &amp; Solution</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">Two-Wheeler</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Three-Wheeler</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Passanger-Veehicle</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Commercial-Vehicle</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Farm-Vehicle</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Earth Moving Equipment</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Genset</a>
+                </li>
+                <!-- connecting inverter page -->
+                <li class="sub_menu_item">
+                  <a href="./inverter_and_batteries.html">Invrtor & battery</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">E-Rickshaw</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Choose Your Battery</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu services -->
+
+            <li class="menu_item">
+              <span>Service</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">AMCARE</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Tips for Buying Battery</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Battery safety Guidelines</a>
+                </li>
+                <!-- connecting terminology page -->
+                <li class="sub_menu_item">
+                  <a href="terminology.html">Terminology</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">FAQs</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Battery Recycling</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu experience -->
+            <li class="menu_item">
+              <span>Amron Experience</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">Media</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Ad Gallery</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Fub Facts</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">AMARON Logo</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Events</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu pitsop -->
+            <li class="menu_item">
+              <span>PitStop Locator</span>
+            </li>
+
+            <!-- menu contact -->
+            <li class="menu_item">
+              <a href="/contact.html" class="text-decoration-none text-white"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="row">
+        <!--  creating the main carousel which has a text box over it and first seting the box position absolute and then 
+          made the main row section as relative to set the image at desire place  -->
+        <section class="col-12 position-relative">
+          <p class="fs-2 p-3 mt-1 d-block d-lg-none d-md-none">Ad Gallery</p>
+          <div
+            class="main_carousel_card text-white position-absolute mt-5 ms-5 d-none d-lg-block d-md-block p-5"
+          >
+            <p class="fs-2">Ad Gallery</p>
+            <p>
+              All print, digital, & television commercials from AMARON that will
+              take you for a nostalgic spin
+            </p>
+          </div>
+
+          <img src="./images/Amaron-Web-Banner_3 (1).jpg" class="w-100" />
+        </section>
+      </section>
+      <!-- bread crumbs this section is  for the  tab and desktop  and for mobile view  it is set to d- none  
+      this section give the path information  -->
+
+      <section class="row justify-content-center">
+        <section class="col-11">
+          <nav
+            style="--bs-breadcrumb-divider: '>'"
+            class="d-none d-lg-block d-md-block"
+          >
+            <ol class="breadcrumb text-uppercase fw-bold">
+              <li class="breadcrumb-item">Home</li>
+              <li class="breadcrumb-item">Product & Solutions</li>
+              <li class="breadcrumb-item">Two Wheelers</li>
+            </ol>
+          </nav>
+        </section>
+      </section>
+
+      <!-- ad section  -->
+      <!-- setting this section width as col-10 for tab and desktop and for mobile col-12 -->
+      <section class="row justify-content-center">
+        <section class="col-lg-10 col-md-10 col-12 bg-white mt-3 p-lg-5 p-md-5 p-4">
+          <p class="fs-2">CAMPAIGNS THAT ADDED ENERGY & VERVE</p>
+          <p>
+            Amaron did not stop at revolutionizing the technology behind
+            batteries. Amaron completely re-positioned the battery from an
+            ignored, under-the-hood product to a top-of-mind category for
+            consumers.
+          </p>
+          <p>
+            This was achieved with groundbreaking communication across print and
+            TV. Amaron commercials added energy and verve to the category like
+            nobody ever had done before.
+          </p>
+          <p>
+            Amaron communication has won accolades from the biggest creative and
+            marketing minds. Check out some of our award-winning campaigns over
+            the years.
+          </p>
+        </section>
+        <!-- carousel section -->
+        
+        <section class="col-lg-10 col-md-10 col-12 bg-white mt-3 p-lg-5 p-md-5 p-3  mb-4">
+          <div class="d-flex flex-lg-row flex-md-row flex-column gap-3">
+            <!-- first carousel -->
+            <!-- making the first carousel width  col-6 for tab and desktop and for mobile col-12 so that is can be set 
+            as per the required area -->
+            <div class="col-lg-6 col-md-6 col-12">
+              <p class="fw-bold">GALLERY</p>
+              <div
+                id="carouselExampleControls"
+                class="carousel slide ad_gallery_carousel"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./images/carousel1.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/carousel2.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/carousel3.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/carousel4.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/carousel5.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/carousel6.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/carousel7.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/c8.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/c9.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/c10.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/c11.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon btn-success"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon btn-success"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden success">Next</span>
+                </button>
+              </div>
+            </div>
+            <!-- seccond carousel -->
+            <!-- making the second carousel width  col-6 for tab and desktop and for mobile col-12 so that is can be set 
+            as per the required area -->
+            <div class="col-lg-6 col-md-6 col-12">
+              <p class="fw-bold">TVC</p>
+              <div
+                id="carouselExampleControls2"
+                class="carousel slide ad_gallery_carousel"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./images/c11.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/c10.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/c9.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/c8.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/carousel7.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/carousel6.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/carousel5.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls2"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon btn-success"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls2"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon btn-success"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="row justify-content-center last_section_color">
+        <section class="col-10 small">
+          <div>
+            <p class="m-0">
+              * Total warranty includes pro-rata warranty. Please refer to the
+              warranty card for terms and conditions.
+            </p>
+            <p class="m-0">
+              * Battery image shown is only for reference. Actual image may
+              vary.
+            </p>
+            <p class="m-0">
+              * Updation of Application chart is a continuous process in Amara
+              Raja. As a result battery recommendation may subject to change
+              without prior notice.
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <!-- footer section -->
+      <footer class="row text-white align-items-center">
+        <section
+          class="col-12 flex-column flex-lg-row flex-md-row d-flex justify-content-between p-4"
+          style="background-color: #1f1c1d"
+        >
+          <!-- footer left section -->
+          <section
+            class="d-flex flex-column flex-lg-row flex-md-row align-items-center gap-4"
+          >
+            <img src="./images/amaron_footer.png" alt="" />
+            <ul class="list-unstyled d-flex gap-4 fs-3">
+              <li class="follow_us d-lg-none d-md-none d-inline">Follow Us:</li>
+              <li><i class="fa fa-twitter text-info"></i></li>
+              <li><i class="fa fa-linkedin text-primary"></i></li>
+              <li><i class="fa fa-facebook text-primary"></i></li>
+              <li><i class="fa fa-instagram text-warning"></i></li>
+              <li><i class="fa fa-youtube-play text-danger"></i></li>
+            </ul>
+          </section>
+
+          <!-- footer right section -->
+
+          <section class="d-flex justify-content-center gap-0">
+            <section class="d-flex align-items-start gap-3">
+              <img src="./images/headphones.png" alt="" />
+              <div class="d-flex flex-column">
+                <span class="care text-success">24x7 CARE</span>
+                <span>1800-425-4848(Toll-Free, India)</span>
+                <span>customercare@amararaja.com</span>
+              </div>
+            </section>
+            <section class="d-none d-lg-flex d-md-flex align-items-start gap-3">
+              <img src="./images/pitstop.png" alt="" />
+              <div class="d-flex flex-column">
+                <span class="care text-success">WANT TO PURCHASE?</span>
+                <span>Locate PITSTOP</span>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section
+          class="col-12 d-flex justify-content-lg-around text-white p-3"
+          style="background-color: #231f20"
+        >
+        <!-- using accordion to use the click effect  -->
+          <div class="row">
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">ABOUT</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Amara Raja</li>
+                  <li>Management</li>
+                  <li>Aftermarket</li>
+                  <li>OEM</li>
+                  <li>International Operations</li>
+                  <li>Manufacturing</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">PRODUCTS & SOLUTIONS</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Two Wheelers</li>
+                  <li>Three Wheelers</li>
+                  <li>Passenger Vehicles</li>
+                  <li>Commercial Vehicles</li>
+                  <li>Farm Vehicles</li>
+                  <li>Earth Moving Equipment</li>
+                  <li>Genset</li>
+                  <li>E-Rickshaw</li>
+                  <li>Inverter And Batteries</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">SERVICES</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>AMCARE</li>
+                  <li>Tips for buying batteries</li>
+                  <li>Battery safety guidelines</li>
+                  <li>Terminology</li>
+                  <li>FAQs</li>
+                  <li>Battery Recycle</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">AMARON EXPERIENCE</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Media</li>
+                  <li>Ad Gallery</li>
+                  <li>Fun Facts</li>
+                  <li>AMARON Logo</li>
+                  <li>Events</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">OTHERS</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Contact</li>
+                  <li>Blogs</li>
+                  <li>Terms & Conditions</li>
+                  <li>Privacy Policy</li>
+                  <li>Online Orders Terms and conditions</li>
+                  <li>Sitemap</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </main>
+  </body>
+</html>

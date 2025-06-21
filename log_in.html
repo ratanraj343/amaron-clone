@@ -1,0 +1,647 @@
+<!-- 
+  This is the login section where users can choose from multiple login options, 
+  such as signing up or logging in using an email address or mobile number.
+  There's also a section for secure login options.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <!-- linking font awesome to get fonts from the site directly -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- linking the bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <!-- linking the bootstrap css plugins -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- linking the bootstrap js plugins -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="container-fluid">
+      <header class="row main_header">
+        <div
+          class="col-12 d-none d-lg-flex d-md-flex justify-content-end text-white gap-3 py-2 px-5"
+        >
+          <a
+            href="mailto:info.testamaron@gmail.com"
+            class="text-light text-decoration-none"
+          >
+            <i class="fa fa-envelope me-1"></i>
+            <span>info.testamaron@gmail.com </span></a
+          >
+          <a href="tel:18001800124 " class="text-light text-decoration-none"
+            ><span><i class="fa fa-phone me-1"> </i> 18001800124 </span></a
+          >
+          <span>|</span>
+          <span>Follow us:</span>
+          <span><i class="fa fa-twitter"></i></span>
+          <span><i class="fa fa-facebook"></i></span>
+          <span><i class="fa fa-instagram"></i></span>
+        </div>
+
+        <div
+          class="col-12 d-flex flex-lg-row flex-md-row flex-column my-2 header_section_search justify-content-between align-items-lg-center align-items-md-center px-lg-5 px-md-5 text-white my-lg-3 my-md-3"
+        >
+          <div class="ham_menu">
+            <i
+              class="fa fa-bars fa-2x d-md-none d-lg-none d-inline-flex mx-2"
+            ></i>
+            <a href="index.html">
+              <img src="./images/Amaron_Logo_0.jpg" alt="Amaron Logo" />
+            </a>
+          </div>
+          <div class="input-group w-50 my-2">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search for the product,vehicle,battery"
+            />
+            <label for="" class="input-group-text bg-white">
+              <i class="fa fa-search"></i>
+            </label>
+          </div>
+          <ul class="menu list-unstyled d-flex gap-4">
+            <li class="position-relative cart_icon">
+              <i class="fa fa-shopping-cart fa-2x"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              >
+                0
+                <span class="visually-hidden">cart items</span>
+              </span>
+            </li>
+            <li><a href="log_in.html" class="text-decoration-none text-white">Login/Signup</a></li>
+          </ul>
+        </div>
+
+        <nav
+          class="col-12 d-none d-lg-flex d-md-flex main_header_menu_section text-white d-flex justify-content-center fw-bold fs-6"
+        >
+          <ul class="menu list-unstyled d-flex gap-4 my-2">
+            <li class="menu_item">
+              <!-- menu section about -->
+              <span>About</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">Amara Raja</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Amara Raja Batteries Ltd</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Management</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">OEM</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">International Operation</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">manufacturing</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu product -->
+            <li class="menu_item">
+              <span>Product &amp; Solution</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">Two-Wheeler</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Three-Wheeler</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Passanger-Veehicle</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Commercial-Vehicle</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Farm-Vehicle</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Earth Moving Equipment</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Genset</a>
+                </li>
+                <!-- connecting inverter page -->
+                <li class="sub_menu_item">
+                  <a href="./inverter_and_batteries.html">Invrtor & battery</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">E-Rickshaw</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Choose Your Battery</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu services -->
+
+            <li class="menu_item">
+              <span>Service</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">AMCARE</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Tips for Buying Battery</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Battery safety Guidelines</a>
+                </li>
+                <!-- connecting terminology page -->
+                <li class="sub_menu_item">
+                  <a href="terminology.html">Terminology</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">FAQs</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Battery Recycling</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu experience -->
+            <li class="menu_item">
+              <span>Amron Experience</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">Media</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Ad Gallery</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Fub Facts</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">AMARON Logo</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Events</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu pitsop -->
+            <li class="menu_item">
+              <span>PitStop Locator</span>
+            </li>
+
+            <!-- menu contact -->
+            <li class="menu_item">
+              <a href="/contact.html" class="text-decoration-none text-white"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- first log in section -->
+      <section class="row justify-content-center mb-5">
+        <!-- setting the width as col-11 for tab and desktop and col-12 for mobile  -->
+        <section class="col-lg-11 col-md-11 col-12">
+          <p class="mt-lg-5 mt-md-5 mt-1">Home / Sign Up Or Login</p>
+          
+          <div class="head_log_in">
+            <p class="bg-success py-3 px-3 text-white fw-bold">
+              Sign Up or Login
+            </p>
+          </div>
+          <!-- creating the option for user to choose between signup an login -->
+          <div class="px-lg-5 px-md-5 px-1">
+            <div class="form-check d-flex">
+              <div class="mb-2 form-check ps-3 pe-3">
+                <input class="form-check-input" type="radio" />
+                <label for="" class="form-check-label">Sign Up</label>
+              </div>
+              <div class="mb-2 form-check">
+                <input class="form-check-input" type="radio" />
+                <label for="" class="form-check-label">Log In</label>
+              </div>
+            </div>
+            <!-- creating the signup page which will take mobile number otp, email ,and their is an option for user to set 
+            password and their is a suggestion Use upper case letters & numbers for Secure password. then their is a sign up button
+          after apart from that they will get two more option as sign up using facebook or google
+           Also they will get the information anout advantage of our secure login -->
+            <div
+              class="col-lg-6 col-md-6 col-11 d-flex flex-lg-row flex-md-row flex-column"
+            >
+              <form action="" id="submit">
+                <div class="mb-2 form-floating">
+                  <input
+                    type="number"
+                    class="form-control border border-0 border-bottom"
+                    placeholder="Mobile No."
+                    id="user-mobile"
+                    name="number"
+                  />
+                  <label for=""> Mobile No.</label>
+                </div>
+                <div class="mb-2 form-floating">
+                  <input
+                    type="number"
+                    class="form-control border border-0 border-bottom"
+                    placeholder="enter otp"
+                    id="user-otp"
+                    name="otp"
+                  />
+                  <label for=""> Enter OTP</label>
+                </div>
+                <div class="mb-2 form-floating">
+                  <input
+                    type="email"
+                    class="form-control border border-0 border-bottom"
+                    placeholder="Email-id"
+                    id="user-email"
+                    name="email"
+                  />
+                  <label for=""> Email ID</label>
+                </div>
+                <div class="form-floating mb-4">
+                  <input
+                    type="password"
+                    class="form-control border border-0 border-bottom"
+                    placeholder="password"
+                    id="user-password"
+                    name="password"
+                  />
+                  <label for="">Set Password (For email id only)</label>
+                  <p>Use upper case letters & numbers for Secure password.</p>
+                </div>
+
+                <div class="mb-2 sign_up_button ">
+                  <button
+                    class="btn btn-success sign_up_button_size fw-lg-bold fw-md-bold"
+                  >
+                    SIGNUP
+                  </button>
+                
+                  <a href="./enquiry.html" target="_blank">View Table</a>
+               
+                </div>
+                <div class="text-center mb-5">
+                  <p>-OR-</p>
+                  <span
+                    ><i class="fa fa-facebook fa-2x text-primary px-3"></i
+                  ></span>
+                  <span><i class="fa fa-google fa-2x text-danger"></i></span>
+                </div>
+              </form>
+              <div class="col-lg-6 col-md-6 col-12 sign_up_advantage">
+                <p>Advantages of our secure login</p>
+                <p>
+                  <i class="fa fa-truck text-success"> </i>
+                  <span class="ps-2">Easily Track Orders </span>
+                </p>
+                <p>
+                  <i class="fa fa-bell text-success"> </i>
+                  <span class="ps-2">Get timely order updates</span>
+                </p>
+                <p>
+                  <i class="fa fa-star text-success"></i>
+                  <span class="ps-2">Rating and more </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!--  second form -->
+      <section class="row justify-content-center mb-5">
+        <section class="col-lg-11 col-md-11 col-12">
+          <p class="mt-lg-5 mt-md-5 mt-1">Home / Sign Up Or Login</p>
+          <div class="head_log_in">
+            <p class="bg-success py-3 px-3 text-white fw-bold">
+              Sign Up or Login
+            </p>
+          </div>
+          <!--  If the user will select login instead of sign up they will see this UI which will ask them whather they want 
+          to login using mobile or email if they select maobile they will have to give their mobile and otp to login to thier account
+          -->
+          <div class="px-lg-5 px-md-5 px-1">
+            <div class="form-check d-flex mb-3">
+              <div class="mb-2 form-check ps-3 pe-3">
+                <input class="form-check-input" type="radio" />
+                <label for="" class="form-check-label">Sign Up</label>
+              </div>
+              <div class="mb-2 form-check">
+                <input class="form-check-input" type="radio" />
+                <label for="" class="form-check-label">Log In</label>
+              </div>
+            </div>
+            <div class="ps-2">
+              <span class="pe-3 log_in_setup">Mobile Number</span>
+              <span class="log_in_setup"> Email Id</span>
+            </div>
+
+            <div
+              class="col-lg-6 col-md-6 col-11 d-flex flex-lg-row flex-md-row flex-column"
+            >
+              <form action="">
+                <div class="mb-2 form-floating">
+                  <input
+                    type="number"
+                    class="form-control border border-0 border-bottom"
+                    placeholder="Mobile No."
+                    id="number"
+                    name="number"
+                  />
+                  <label for=""> Mobile No.</label>
+                </div>
+                <div class="mb-2 form-floating">
+                  <input
+                    type="text"
+                    class="form-control border border-0 border-bottom"
+                    placeholder="enter otp"
+                    id="otp"
+                    name="otp"
+                  />
+                  <label for=""> Enter OTP</label>
+                </div>
+                <div class="mb-2 sign_up_button">
+                  <button
+                    class="btn btn-success sign_up_button_size fw-lg-bold fw-md-bold" onclick="checkLogin()"
+                  >
+                    LOGIN
+                  </button>
+                </div>
+                <div class="text-center mb-5">
+                  <p>-OR-</p>
+                  <span
+                    ><i class="fa fa-facebook fa-2x text-primary px-3"></i
+                  ></span>
+                  <span><i class="fa fa-google fa-2x text-danger"></i></span>
+                </div>
+              </form>
+              <div class="col-lg-6 col-md-6 col-12 sign_up_advantage">
+                <p>Advantages of our secure login</p>
+                <p>
+                  <i class="fa fa-truck text-success"> </i>
+                  <span class="ps-2">Easily Track Orders </span>
+                </p>
+                <p>
+                  <i class="fa fa-bell text-success"> </i>
+                  <span class="ps-2">Get timely order updates</span>
+                </p>
+                <p>
+                  <i class="fa fa-star text-success"></i>
+                  <span class="ps-2">Rating and more </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- third form -->
+
+      <section class="row justify-content-center mb-5">
+        <section class="col-lg-11 col-md-11 col-12">
+          <p class="mt-lg-5 mt-md-5 mt-1">Home / Sign Up Or Login</p>
+          <div class="head_log_in">
+            <p class="bg-success py-3 px-3 text-white fw-bold">
+              Sign Up or Login
+            </p>
+          </div>
+          <!-- if the user will select login using email they will get this ui in which they will have to give their email id and 
+          password to login to their account here they will also get a forget password option incase they forgot their password
+        they acan reset it -->
+          <div class="px-lg-5 px-md-5 px-1">
+            <div class="form-check d-flex mb-3">
+              <div class="mb-2 form-check ps-3 pe-3">
+                <input class="form-check-input" type="radio" />
+                <label for="" class="form-check-label">Sign Up</label>
+              </div>
+              <div class="mb-2 form-check">
+                <input class="form-check-input" type="radio" />
+                <label for="" class="form-check-label">Log In</label>
+              </div>
+            </div>
+            <div class="ps-2">
+              <span class="pe-3 log_in_setup">Mobile Number</span>
+              <span class="log_in_setup"> Email Id</span>
+            </div>
+
+            <div
+              class="col-lg-6 col-md-6 col-11 d-flex flex-lg-row flex-md-row flex-column"
+            >
+              <form action="" >
+                <div class="mb-2 form-floating">
+                  <input
+                    type="text  "
+                    class="form-control border border-0 border-bottom"
+                    placeholder="email id"
+                    id="email"
+                    name="email"
+                  />
+                  <label for=""> Email ID</label>
+                </div>
+                <div class="mb-2 form-floating">
+                  <input
+                    type="text"
+                    class="form-control border border-0 border-bottom"
+                    placeholder="password"
+                    id="password"
+                    name="password"
+                  />
+                  <label for=""> Password</label>
+                  <p class="text-end">Forget Password?</p>
+                </div>
+
+                <div class="mb-2 sign_up_button">
+                  <button
+                    class="btn btn-success sign_up_button_size fw-lg-bold fw-md-bold" onclick="checkEmail()"
+                  >
+                    LOGIN
+                  </button>
+                </div>
+                <div class="text-center mb-5">
+                  <p>-OR-</p>
+                  <span
+                    ><i class="fa fa-facebook fa-2x text-primary px-3"></i
+                  ></span>
+                  <span><i class="fa fa-google fa-2x text-danger"></i></span>
+                </div>
+              </form>
+              <div class="col-lg-6 col-md-6 col-12 sign_up_advantage">
+                <p>Advantages of our secure login</p>
+                <p>
+                  <i class="fa fa-truck text-success"> </i>
+                  <span class="ps-2">Easily Track Orders </span>
+                </p>
+                <p>
+                  <i class="fa fa-bell text-success"> </i>
+                  <span class="ps-2">Get timely order updates</span>
+                </p>
+                <p>
+                  <i class="fa fa-star text-success"></i>
+                  <span class="ps-2">Rating and more </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="row justify-content-center last_section_color">
+        <section class="col-10 small">
+          <div>
+            <p class="m-0">
+              * Total warranty includes pro-rata warranty. Please refer to the
+              warranty card for terms and conditions.
+            </p>
+            <p class="m-0">
+              * Battery image shown is only for reference. Actual image may
+              vary.
+            </p>
+            <p class="m-0">
+              * Updation of Application chart is a continuous process in Amara
+              Raja. As a result battery recommendation may subject to change
+              without prior notice.
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <!-- footer section  -->
+      <footer class="row text-white align-items-center">
+        <section
+          class="col-12 flex-column flex-lg-row flex-md-row d-flex justify-content-between p-4"
+          style="background-color: #1f1c1d"
+        >
+          <!-- footer left section -->
+
+          <section
+            class="d-flex flex-column flex-lg-row flex-md-row align-items-center gap-4"
+          >
+            <img src="./images/amaron_footer.png" alt="" />
+            <ul class="list-unstyled d-flex gap-4 fs-3">
+              <li class="follow_us d-lg-none d-md-none d-inline">Follow Us:</li>
+              <li><i class="fa fa-twitter text-info"></i></li>
+              <li><i class="fa fa-linkedin text-primary"></i></li>
+              <li><i class="fa fa-facebook text-primary"></i></li>
+              <li><i class="fa fa-instagram text-warning"></i></li>
+              <li><i class="fa fa-youtube-play text-danger"></i></li>
+            </ul>
+          </section>
+
+          <!-- footer right section -->
+
+          <section class="d-flex justify-content-center gap-0">
+            <section class="d-flex align-items-start gap-3">
+              <img src="./images/headphones.png" alt="" />
+              <div class="d-flex flex-column">
+                <span class="care text-success">24x7 CARE</span>
+                <span>1800-425-4848(Toll-Free, India)</span>
+                <span>customercare@amararaja.com</span>
+              </div>
+            </section>
+            <section class="d-none d-lg-flex d-md-flex align-items-start gap-3">
+              <img src="./images/pitstop.png" alt="" />
+              <div class="d-flex flex-column">
+                <span class="care text-success">WANT TO PURCHASE?</span>
+                <span>Locate PITSTOP</span>
+              </div>
+            </section>
+          </section>
+        </section>
+
+        <!-- footer last section  -->
+        <section
+          class="col-12 d-flex justify-content-lg-around text-white p-3"
+          style="background-color: #231f20"
+        >
+          <!-- using accordion to use the click effect  -->
+          <div class="row">
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">ABOUT</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Amara Raja</li>
+                  <li>Management</li>
+                  <li>Aftermarket</li>
+                  <li>OEM</li>
+                  <li>International Operations</li>
+                  <li>Manufacturing</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">PRODUCTS & SOLUTIONS</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Two Wheelers</li>
+                  <li>Three Wheelers</li>
+                  <li>Passenger Vehicles</li>
+                  <li>Commercial Vehicles</li>
+                  <li>Farm Vehicles</li>
+                  <li>Earth Moving Equipment</li>
+                  <li>Genset</li>
+                  <li>E-Rickshaw</li>
+                  <li>Inverter And Batteries</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">SERVICES</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>AMCARE</li>
+                  <li>Tips for buying batteries</li>
+                  <li>Battery safety guidelines</li>
+                  <li>Terminology</li>
+                  <li>FAQs</li>
+                  <li>Battery Recycle</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">AMARON EXPERIENCE</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Media</li>
+                  <li>Ad Gallery</li>
+                  <li>Fun Facts</li>
+                  <li>AMARON Logo</li>
+                  <li>Events</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">OTHERS</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Contact</li>
+                  <li>Blogs</li>
+                  <li>Terms & Conditions</li>
+                  <li>Privacy Policy</li>
+                  <li>Online Orders Terms and conditions</li>
+                  <li>Sitemap</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </main>
+    <script src="./js/log_in.js"></script>
+  </body>
+</html>

@@ -1,0 +1,554 @@
+<!-- this is a two wheeler section which give the information about the features of their batteries for two wheeler
+here we can choose a battery by filing information of two wheeler like its type fule type models etc -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Two-wheeler</title>
+     <!-- linking font awesome to get fonts from the site directly -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- linking css -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+        <!-- linking the bootstrap css plugins -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+        <!-- linking the bootstrap js plugins -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="container-fluid bg-light">
+      <header class="row main_header">
+        <div
+          class="col-12 d-none d-lg-flex d-md-flex justify-content-end text-white gap-3 py-2 px-5"
+        >
+          <a
+            href="mailto:info.testamaron@gmail.com"
+            class="text-light text-decoration-none"
+          >
+            <i class="fa fa-envelope me-1"></i>
+            <span>info.testamaron@gmail.com </span></a
+          >
+          <a href="tel:18001800124 " class="text-light text-decoration-none"
+            ><span><i class="fa fa-phone me-1"> </i> 18001800124 </span></a
+          >
+          <span>|</span>
+          <span>Follow us:</span>
+          <span><i class="fa fa-twitter"></i></span>
+          <span><i class="fa fa-facebook"></i></span>
+          <span><i class="fa fa-instagram"></i></span>
+        </div>
+
+        <div
+          class="col-12 d-flex flex-lg-row flex-md-row flex-column my-2 header_section_search justify-content-between align-items-lg-center align-items-md-center px-lg-5 px-md-5 text-white my-lg-3 my-md-3"
+        >
+          <div class="ham_menu">
+            <i
+              class="fa fa-bars fa-2x d-md-none d-lg-none d-inline-flex mx-2"
+            ></i>
+           <a href="index.html">
+              <img src="./images/Amaron_Logo_0.jpg" alt="Amaron Logo" />
+            </a>
+          </div>
+          <div class="input-group w-50 my-2">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search for the product,vehicle,battery"
+            />
+            <label for="" class="input-group-text bg-white">
+              <i class="fa fa-search"></i>
+            </label>
+          </div>
+          <ul class="menu list-unstyled d-flex gap-4">
+            <li class="position-relative cart_icon">
+              <i class="fa fa-shopping-cart fa-2x"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              >
+                0
+                <span class="visually-hidden">cart items</span>
+              </span>
+            </li>
+            <li><a href="log_in.html" class="text-decoration-none text-white">Login/Signup</a></li>
+          </ul>
+        </div>
+
+        <nav
+          class="col-12 d-none d-lg-flex d-md-flex main_header_menu_section text-white d-flex justify-content-center fw-bold fs-6"
+        >
+          <ul class="menu list-unstyled d-flex gap-4 my-2">
+            <li class="menu_item">
+              <!-- menu section about -->
+              <span>About</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">Amara Raja</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Amara Raja Batteries Ltd</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Management</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">OEM</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">International Operation</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">manufacturing</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu product -->
+            <li class="menu_item">
+              <span>Product &amp; Solution</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">Two-Wheeler</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Three-Wheeler</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Passanger-Veehicle</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Commercial-Vehicle</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Farm-Vehicle</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Earth Moving Equipment</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Genset</a>
+                </li>
+                <!-- connecting inverter page -->
+                <li class="sub_menu_item">
+                  <a href="./inverter_and_batteries.html">Invrtor & battery</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">E-Rickshaw</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Choose Your Battery</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu services -->
+
+            <li class="menu_item">
+              <span>Service</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">AMCARE</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Tips for Buying Battery</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Battery safety Guidelines</a>
+                </li>
+                <!-- connecting terminology page -->
+                <li class="sub_menu_item">
+                  <a href="terminology.html">Terminology</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">FAQs</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Battery Recycling</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu experience -->
+            <li class="menu_item">
+              <span>Amron Experience</span>
+              <ul class="sub_menu d-none">
+                <li class="sub_menu_item">
+                  <a href="">Media</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Ad Gallery</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Fub Facts</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">AMARON Logo</a>
+                </li>
+                <li class="sub_menu_item">
+                  <a href="">Events</a>
+                </li>
+              </ul>
+            </li>
+            <!-- menu pitsop -->
+            <li class="menu_item">
+              <span>PitStop Locator</span>
+            </li>
+
+            <!-- menu contact -->
+            <li class="menu_item">
+              <a href="/contact.html" class="text-decoration-none text-white"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!--  creating the main carousel which has a text box over it and first seting the box position absolute and then 
+          made the main row section as relative to set the image at desire place  -->
+      <section class="row">
+        <section class="col-12 position-relative">
+          <p class="fs-2 p-3 mt-1 d-block d-lg-none d-md-none">
+            <strong>TWO </strong> WHEELER BATTERY
+          </p>
+          <div
+            class="main_carousel_card text-white position-absolute mt-5 ms-5 p-4 d-none d-lg-block d-md-block"
+          >
+            <p class="fs-2"><strong>TWO </strong> WHEELER BATTERY</p>
+            <p>Ride on AMARON - the perfect fit for your two-wheelers</p>
+            <ul class="list-unstyled d-flex flex-wrap">
+              <li class="w-50 mb-4">
+                <img src="./images/breakthrough-technology-icon_0.png" alt="" />
+                <span>Breakthrough Technology</span>
+              </li>
+              <li class="w-50">
+                <img src="./images/commercial vehicles 1.png" alt="" />
+                <span>High Cranking Power</span>
+              </li>
+              <li class="w-50">
+                <img src="./images/commercial vehicles 2.png" alt="" />
+                <span>Zero-Maintenance</span>
+              </li>
+              <li class="w-50">
+                <img src="./images/icon-resistance.png" alt="" />
+                <span>High Corrosion Resistance</span>
+              </li>
+            </ul>
+          </div>
+          <img src="./images/TwoWheeler_0.jpg" class="w-100" />
+        </section>
+      </section>
+      <section class="row justify-content-center battery_section">
+        <!-- breadcrumbs -->
+        <!-- bread crumbs this section is  for the  tab and desktop  and for mobile view  it is set to d- none  
+      this section give the path information  -->
+        <section class="col-11">
+          <nav
+            style="--bs-breadcrumb-divider: '>'"
+            class="d-none d-lg-block d-md-block"
+          >
+            <ol class="breadcrumb text-uppercase fw-bold">
+              <li class="breadcrumb-item">Home</li>
+              <li class="breadcrumb-item">Product & Solutions</li>
+              <li class="breadcrumb-item">Two Wheelers</li>
+            </ol>
+          </nav>
+          <section class="bg-white p-lg-3 pt-3">
+            <p class="fw-bold">CHOOSE YOUR BATTERY</p>
+            <form action="">
+              <div class="row d-flex align-items-center py-1">
+                <div
+                  class="form-floating border-0 col-12 col-lg-3 col-md-3 mb-3"
+                >
+                  <select
+                    name=""
+                    id=""
+                    class="form-select border-0 border-bottom border-dark rounded-0"
+                  >
+                    <option value="">Select</option>
+                  </select>
+                  <label for="">Vehicle Make</label>
+                </div>
+                <div
+                  class="form-floating border-0 col-12 col-lg-3 col-md-3 mb-3"
+                >
+                  <select
+                    name=""
+                    id=""
+                    class="form-select border-0 border-bottom border-dark rounded-0"
+                  >
+                    <option value="">Select</option>
+                  </select>
+                  <label for="">Model</label>
+                </div>
+                <div
+                  class="form-floating border-0 col-12 col-lg-3 col-md-3 mb-3"
+                >
+                  <select
+                    name=""
+                    id=""
+                    class="form-select border-0 border-bottom border-dark rounded-0"
+                  >
+                    <option value="">Select</option>
+                  </select>
+                  <label for="">Fuel</label>
+                </div>
+                <div class="border-0 col-12 col-lg-3 col-md-3 mb-3">
+                  <button class="btn btn-secondary rounded-0 px-5 py-2">
+                    Find Now
+                  </button>
+                </div>
+              </div>
+            </form>
+          </section>
+        </section>
+
+        <!-- battery image section this section gives the information about the battery and warrenty seeting both the image as d-flrx so thar 
+        both the image will be in the same row and giving width as 50 for both-->
+
+        <section class="col-11 d-flex flex-wrap">
+          <div class="battery_image_card">
+            <div class="border border-2 battery_image">
+              <img
+                src="./images/amaron_battery.png"
+                alt=""
+                class="w-100 h-100"
+              />
+            </div>
+
+            <div class="d-flex battery_text text-center">
+              <p class="border border-1 m-0 w-50 p-1">
+                <strong class="text-success">AMARON</strong>
+                <br />PRO RIDER
+              </p>
+              <p class="border border-1 m-0 w-50 p-1">
+                <strong class="text-success">WARRANTY</strong>
+                <br />48* MONTHS
+              </p>
+            </div>
+          </div>
+          <div class="battery_detail">
+            <p class="fs-2">
+              GET <strong class="text-success">AMARON</strong> BATTERIES FOR
+              MOTORBIKES AND SCOOTERS
+            </p>
+            <p>
+              With constant investment in research and development, AMARON
+              batteries are improved to suit evolving demands for newer
+              vehicles.
+            </p>
+
+            <p>
+              Amaron offers Pro Bike Rider (PBR) batteries, manufactured with
+              state-of-the-art VRLA technology, for the entire range of
+              two-wheelers available in India. Amaron two-wheeler battery is
+              tested for high performance under all weather conditions.
+            </p>
+            <p>
+              VRLA technology works on the oxygen recombination principle, which
+              prevents water loss and provides a zero maintenance battery.
+            </p>
+            <p>
+              No matter what your ride is, there is an Amaron PBR battery that
+              is going to last long, really long.
+            </p>
+            <button
+              class="bg-success text-white text-uppercase fw-bold px-4 py-1 mt-5"
+            >
+              download complete application chart
+            </button>
+          </div>
+        </section>
+      </section>
+      <section
+        class="row justify-content-center"
+        style="background-color: #f8f8f8"
+      >
+      <!-- creating a section which will give idea about their features  -->
+        <section class="col-11 bg-white">
+          <hr />
+          <div class="px-2 py-5 mx-lg-5 mx-md-5">
+            <p>OUR FEATURES</p>
+            <ul class="list-unstyled d-flex flex-wrap">
+              <li class="col-lg-4 col-md-4 col-12 mb-4">
+                <img src="./images/breakthrough-technology-icon_0.png" alt="" />
+                <span>Breakthrough Technology</span>
+              </li>
+              <li class="col-lg-4 col-md-4 col-12 mb-4">
+                <img src="./images/commercial vehicles 1.png" alt="" />
+                <span>High Cranking Power</span>
+              </li>
+              <li class="col-lg-4 col-md-4 col-12 mb-4">
+                <img src="./images/icon-vibration_0.png" alt="" />
+                <span>Vibration Resistance</span>
+              </li>
+              <li class="col-lg-4 col-md-4 col-12 mb-4">
+                <img src="./images/icon-spill.png" alt="" />
+                <span>Spill-Proof</span>
+              </li>
+              <li class="col-lg-4 col-md-4 col-12 mb-4">
+                <img src="./images/commercial vehicles 2.png" alt="" />
+                <span>Zero-Maintenance</span>
+              </li>
+              <li class="col-lg-4 col-md-4 col-12 mb-4">
+                <img src="./images/icon-safety_0.png" alt="" />
+                <span>Improved Safety</span>
+              </li>
+              <li class="col-lg-4 col-md-4 col-12 mb-4">
+                <img src="./images/icon-resistance.png" alt="" />
+                <span>High Corrosion Resistance</span>
+              </li>
+              <li class="col-lg-4 col-md-4 col-12 mb-4">
+                <img src="./images/icon-long-life.png" alt="" />
+                <span>Long Life</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <section class="row justify-content-center last_section_color">
+        <section class="col-10 small">
+          <div>
+            <p class="m-0">
+              * Total warranty includes pro-rata warranty. Please refer to the
+              warranty card for terms and conditions.
+            </p>
+            <p class="m-0">
+              * Battery image shown is only for reference. Actual image may
+              vary.
+            </p>
+            <p class="m-0">
+              * Updation of Application chart is a continuous process in Amara
+              Raja. As a result battery recommendation may subject to change
+              without prior notice.
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <footer class="row text-white align-items-center">
+        <section
+          class="col-12 flex-column flex-lg-row flex-md-row d-flex justify-content-between p-4"
+          style="background-color: #1f1c1d"
+        >
+          <!-- footer left section -->
+          <section
+            class="d-flex flex-column flex-lg-row flex-md-row align-items-center gap-4"
+          >
+            <img src="./images/amaron_footer.png" alt="" />
+            <ul class="list-unstyled d-flex gap-4 fs-3">
+              <li class="follow_us d-lg-none d-md-none d-inline">Follow Us:</li>
+              <li><i class="fa fa-twitter text-info"></i></li>
+              <li><i class="fa fa-linkedin text-primary"></i></li>
+              <li><i class="fa fa-facebook text-primary"></i></li>
+              <li><i class="fa fa-instagram text-warning"></i></li>
+              <li><i class="fa fa-youtube-play text-danger"></i></li>
+            </ul>
+          </section>
+
+          <!-- footer right section -->
+
+          <section class="d-flex justify-content-center gap-0">
+            <section class="d-flex align-items-start gap-3">
+              <img src="./images/headphones.png" alt="" />
+              <div class="d-flex flex-column">
+                <span class="care text-success">24x7 CARE</span>
+                <span>1800-425-4848(Toll-Free, India)</span>
+                <span>customercare@amararaja.com</span>
+              </div>
+            </section>
+            <section class="d-none d-lg-flex d-md-flex align-items-start gap-3">
+              <img src="./images/pitstop.png" alt="" />
+              <div class="d-flex flex-column">
+                <span class="care text-success">WANT TO PURCHASE?</span>
+                <span>Locate PITSTOP</span>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section
+          class="col-12 d-flex justify-content-lg-around text-white p-3"
+          style="background-color: #231f20"
+        >
+          <div class="row">
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">ABOUT</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Amara Raja</li>
+                  <li>Management</li>
+                  <li>Aftermarket</li>
+                  <li>OEM</li>
+                  <li>International Operations</li>
+                  <li>Manufacturing</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">PRODUCTS & SOLUTIONS</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Two Wheelers</li>
+                  <li>Three Wheelers</li>
+                  <li>Passenger Vehicles</li>
+                  <li>Commercial Vehicles</li>
+                  <li>Farm Vehicles</li>
+                  <li>Earth Moving Equipment</li>
+                  <li>Genset</li>
+                  <li>E-Rickshaw</li>
+                  <li>Inverter And Batteries</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">SERVICES</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>AMCARE</li>
+                  <li>Tips for buying batteries</li>
+                  <li>Battery safety guidelines</li>
+                  <li>Terminology</li>
+                  <li>FAQs</li>
+                  <li>Battery Recycle</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">AMARON EXPERIENCE</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Media</li>
+                  <li>Ad Gallery</li>
+                  <li>Fun Facts</li>
+                  <li>AMARON Logo</li>
+                  <li>Events</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-lg-2 col-12 col-lg-2 col-md-3 accordion">
+              <p class="text-success">OTHERS</p>
+              <div class="d-none d-lg-flex d-md-flex">
+                <ul class="list-unstyled">
+                  <li>Contact</li>
+                  <li>Blogs</li>
+                  <li>Terms & Conditions</li>
+                  <li>Privacy Policy</li>
+                  <li>Online Orders Terms and conditions</li>
+                  <li>Sitemap</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </main>
+  </body>
+</html>
